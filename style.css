@@ -1,0 +1,309 @@
+/*
+Theme Name: autokosmos
+Theme URI: Theme Name: http://autokosmos.com.ua/
+Author: Pavel Kuchenev
+Author URI: Theme Name: http://autokosmos.com.ua/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: autokosmos
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* body{
+   opacity: 0;
+} */
+ul {
+    list-style-type: disc!important;
+}
+.new-box .new-title a{
+    color: #565656;
+}
+.breadcrumbs{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+.breadcrumbs a{
+    font-size: 14px;
+    color: #666 ;
+}
+.slider-nav-thumbnails .slick-slide{
+    height: 60px!important;
+    overflow: hidden!important;
+}
+.slick-list{
+    max-height: 520px!important;
+}
+
+.slick-next, .slick-prev{
+    z-index: 100;
+}
+.cat-h1{
+    text-align: center;
+}
+.popup-form-ajax{
+    width: 100%;
+}
+.showcase-item-data{
+    position: relative;
+}
+.in-ukr{
+    background-color: yellow;
+    border: 2px solid blue;
+    position: absolute;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 5px;
+    top: -30px;
+    left: 3px;
+}
+#filter-desk3 .panel-body, #filter-desk4 .panel-body{
+    overflow-y: scroll;
+    min-height: 75px;
+    max-height: 230px;
+}
+.baner-bottom form .accent-but{
+    max-width: auto!important;
+    width: 100%!important;
+    padding: 7px 13px!important;
+}
+.baner-bottom form label{
+    display: block;
+}
+.baner-bottom form .nice-select{
+    width: 100%;
+}
+.bold-res{
+    font-weight: 600;
+    color: red;
+}
+.nav-links .next, .nav-links .prev, .page-numbers{
+    color: #333333!important;
+    font-weight: 600!important;
+}
+.nav-links .current{
+    color: #ffc730!important;
+    font-weight: 600!important;
+}
+.screen-reader-text{
+    display: none;
+}
+.nav-links{
+    margin: 0 auto;
+}
+.pagination-block{
+    text-align: center;
+}
+a:hover{
+    cursor: pointer;
+}
+.auction .item .item-img{
+    margin-bottom: 20px;
+}
+.auction .item span p{
+    font-size: 14px!important;
+    font-weight: 400!important;
+}
+.rev-item-img img{
+    width: 100%;
+}
+.usluga-block h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.res-cost{
+    display: none;
+    text-align: center;
+    font-weight: 600;
+}
+.res-cost span{
+    color: red;
+}
+.columns{
+    column-count: 5;
+}
+.columns a{
+    font-weight: 500;
+}
+.showcase .showcase-item-data h3 a{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #232323;
+    text-decoration: none;
+}
+.showcase .showcase-item-data h3{
+    height: 52px;
+}
+.bottom-mnu a{
+    font-weight: 600;
+}
+.pensia-inform{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.brand-find{
+    width: 100%!important;
+}
+.nice-select .list{
+    max-height: 230px;
+    overflow-y: scroll!important;
+    width: 170px;
+}
+#thanck{
+    text-align: center!important;
+}
+#thanck h2{
+    font-size: 24px;
+    text-align: center!important;
+}
+#thanck h3{
+    font-size: 18px;
+}
+#popup-call, #thanck, #popup-product{
+    position: relative;
+    max-width: 696px;
+    width: 90%;
+    padding: 30px 50px;
+    background-color: #565966;
+    color: #ffffff;
+}
+.white-popup .mfp-close{
+    color: #FFC730!important;
+    background-color: #363636;
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    border-radius: 50%;
+    opacity: 1;
+}
+#popup-call .accent-but, #thanck .accent-but, #popup-product .accent-but{
+    padding: 7px 30px;
+    font-weight: 500;
+}
+#popup-call h2, #thanck h2, #popup-product h2{
+    color: #ffffff;
+    text-align: left;
+}
+#popup-call .input-p label, #popup-product .input-p label{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+#popup-call .input-p, #popup-product .input-p {
+    margin-bottom: 0;
+    text-align: left;
+}
+#popup-call input,  #popup-product input{
+    height: 40px;
+}
+.slider-nav-thumbnails{
+    margin-top: 15px!important;
+}
+.list-item{
+    height: 190px;
+}
+.catalog-cats-item img{
+    width: 66%;
+}
+#moby-mnu .close{
+    z-index: 100!important;
+}
+.slick-slide{
+    height: auto!important;
+}
+.list-item-img{
+    display: flex;
+    align-items: center;
+}
+.list-item-img img{
+    width: 100%!important;
+    height: auto!important;
+}
+.serv-item img{
+    transition: all .4s ease;
+}
+.serv-item:hover > img{
+    transform: scale(1.14);
+}
+.panel-body{
+    display: flex;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    background-color: #FCFBFF;
+}
+.panel-body a{
+    width: 100%;
+    font-size: 14px!important;
+    display: block;
+    padding-left: 20px;
+    position: relative;
+}
+.panel-body a::before{
+    content: url('img/no-check.svg');
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.panel-body a.active-filter::before{
+    content: url('img/check.svg');
+}
+.list-item-data h3 a{
+    color: #232323;
+}
+.filter-year{
+   height: 145px;
+   overflow-y: scroll;
+    display: block!important;
+}
+.calc .flex-result-wrap{
+    padding: 33px 35px!important;
+}
+.inner-cond{
+    font-size: 11px;
+    font-weight: 400;
+}
+.page-numbers{
+    padding: 10px;
+}
+#euro{
+    display: none;
+}
+@media(max-width:768px){
+    .slick-list{
+        max-height: 300px!important;
+    }
+     .item-why{
+        height: 96.5%;
+    } 
+    .eq-half{
+        height: 47%!important;
+    }
+    .showcase{
+        padding: 10px 0!important;
+    }
+    .calc{
+        padding-top: 45px!important;
+        padding-bottom: 45px!important;
+    }
+    .auction{
+        padding-top: 0!important;
+    }
+    .columns{
+        column-count: 2;
+    }
+    #popup-call{
+        padding: 30px 30px;
+    }
+    #popup-call input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .no-p{
+        padding: 0!important;
+    }
+}
